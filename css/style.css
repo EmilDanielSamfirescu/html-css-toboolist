@@ -87,3 +87,34 @@ main {
     border-color: red;
     color: red;
 }
+
+.item-list {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.lateral-button {
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: small;
+}
+
+.--blu {
+    background-color: #48adf1;
+}
+.--verde {
+    background-color: #63c0a9;
+}
+.--arancione {
+    background-color: #f29e33;
+}
+.--viola {
+    background-color: #9c72e4;
+}
+.--fucsia {
+    background-color: #d763a1;
+}
+.--pistacchio {
+    background-color: #b0c925;
+}
