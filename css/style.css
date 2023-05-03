@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #f6f6f6;
+    background-color: #e7e7e7;
 }
 
 header, main {
@@ -17,6 +17,9 @@ header, main {
 
 
 /***** HEADER *****/
+header {
+    padding: 15px;
+}
 
 h1 {
     display: inline-block;
@@ -38,6 +41,29 @@ main {
     margin-top: 50px;
 }
 
+.up-buttons {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 10px;
+    
+}
+
+.task-button {
+    color: white;
+    background-color: #48adf1;
+    border-color: #48adf1;
+}
+
+.section-button {
+    color: #b7babb;
+    border-color: #b7babb;
+}
+
 hr {
     border: 2px #f6f6f6;
+}
+
+.section-upper {
+    padding: 15px;
 }
